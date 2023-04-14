@@ -1,0 +1,55 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1>Zeno's zoo</h1>
+            <h3>The cutest animals in town</h3>
+        </header>
+        <main>
+            <section id="animals-section"></section>
+            <section id="order-section">
+                <h1>Your order</h1>
+                
+                <div id="animalNamePrice"> 
+                    <h3 id="orderName"></h3>
+                    <h3 id="orderPrice"></h3>
+                </div>
+                <div id="animalsTotalprice">
+                    <h3>Total price:</h3>
+                    <h3 id="totalPrice"></h3>
+                </div>
+                <div id="completeOrder">
+                    <button id="completeOrderBtn">Complete order</button>
+                </div>
+            </section>
+            <section id="modal-content">
+                <h3>Enter your card details</h3>
+                <form id="input-form">
+                    <input required
+                    type="text" 
+                    id="name-input" 
+                    placeholder="Enter your name"
+                    name="fullname"
+                    >
+                    <br><br>
+                    <input required
+                    type="text" 
+                    id="cc-input" 
+                    placeholder="Enter your card number"
+                    name="ccNumber">
+                    <br><br>
+                    <input required
+                    type="text" 
+                    id="cvv-input" 
+                    placeholder="Enter CVV"
+                    name="ccvNumber">
+                    <button type="submit" id="payment-btn">Pay</button>
+                </form>
+            </section>
+        </main>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

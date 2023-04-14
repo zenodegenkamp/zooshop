@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    background-color: black;
+} 
+
+/* layout  */
+header {
+    background-image: url("/images/zoo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin-top: 0px;
+    padding-top: 3%;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* Animal section */
+
+#animals-section {
+    background: #231d1b;
+    margin: auto;
+    color: white;
+    width: 600px;
+    height: 470px;
+
+}
+
+.shop-element {
+    display: flex; 
+    justify-content: center;
+    border-bottom: 1px solid #DFDFD6;
+    width: 500px;
+    margin: auto;
+}
+
+.animal-icon {
+    margin: 0 20px 0px 0;
+    font-size: 70px;
+}
+
+.shop-add-btn {
+    border: 1px solid #DFDFD6;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 40px 20px;
+    
+    font-size: 30px;
+    display: inline-block;
+    color: snow;
+    background-color: #231d1b;
+}
+
+.shop-text {
+    width: 40%;
+}
+
+.shop-description {
+    color: grey;
+}
+
+/* order section  */
+#order-section{
+    background-color: #DFDFD6;
+    width: 600px;
+    height: 470px;
+    margin: auto;
+}
+
+#order-section h1{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+/* Your order section */
+#animalNamePrice, #animalsTotalprice {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin:  auto;
+}
+
+#animalsTotalprice {
+    display: none;
+    border-top: 2px solid #231d1b;
+}
+    
+
+/* btns Order section */
+#completeOrder {
+    text-align: center;
+}
+
+#completeOrderBtn, #payment-btn {
+    background-color: #E59A22;
+    border: 0px;
+    color: #DFDFD6;
+    width: 500px;
+    height: 50px;
+}
+
+#shop-remove-btn{
+    border: 0px;
+    background-color: #DFDFD6;
+    color: gray;
+    font-size: 15px;
+}
+
+/* Modal section */
+
+#modal-content{
+display: none;
+  background-color: #DFDFD6;
+  z-index: 1; /* Sit on top */
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  width: 500px; /* Full width */
+  height: 400px; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  text-align: center;
+  box-shadow: 5px 10px 18px #231d1b;
+}
+
+#modal-content input {
+    width: 480px;
+    height: 50px;
+    background-color: #DFDFD6;
+    text-align: center;
+}
+
+#modal-content img {
+    width: 80%;
+    height: 60%;
+}
+
+#payment-btn {
+    width: 450px;
+    margin-top: 40px;
+
+}
+
+.higlighted {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E59A22;
+}
+
